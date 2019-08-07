@@ -1,0 +1,61 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{tikz}
+\usepackage [utf8x] {inputenc}
+\usepackage [T2A] {fontenc} 
+\usepackage[russian]{babel}
+\usepackage{cmap} 
+\usepackage{ gensymb }
+\usepackage[unicode]{hyperref}
+\usepackage{ textcomp }
+\usepackage{datetime}
+\usepackage{physics}
+\usepackage{float}
+\usepackage{cancel}
+\usepackage{mathtools}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\newcommand{\func}[2]{\left\langle #1, #2\right\rangle}
+\newcommand{\Sw}[1]{\mathcal S \left( #1 \right)}
+\newcommand{\Ft}[1]{\mathcal F\left[ #1 \right]}
+\newcommand{\sign}{\text{sign}}
+\newcommand{\schgl}{\mathcal{S'}(\mathbb{R}^l)}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\sch}{\mathcal{S}(\mathbb{R}^m)} 
+
+\newcommand{\paper}[2]{ 
+\newpage
+\subsection*{#1. #2}
+\addcontentsline{toc}{subsection}{#1}
+}
+
+\makeatletter
+
+\fancyhead[L]{\footnotesize Основы современной физики}
+\fancyhead[RO]{Последняя компиляция: \today \, \currenttime}
+\fancyfoot[R]{\thepage}
+\fancyfoot[C]{}
+
+\title{Основы современной физики}
+\author{ЛФИ им. Ландау}
+\date{Весенний семестр 2019 г.}
+
+\renewcommand{\maketitle}{%
+	\noindent{\bfseries\scshape\large\@title\ \mdseries\upshape}\par
+	\noindent {\large\itshape\@author}
+	\vskip 2ex}
+\makeatother
+
+\begin{document}
+
+\maketitle
+
+%\input{card7.tex}
+%input{card9.tex}
+%\input{card10.tex}
+%\input{card13.tex}
+%\input{card14.tex}
+
+\end{document}
